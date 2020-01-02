@@ -8,5 +8,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   </head>
   <body>
+    <form action="save.php" method="POST">
+      <input type="text" name="dir" />
+      <textarea name="contents"></textarea>
+      <input type="hidden" name="username" />
+      <input type="submit" />
+    </form>
   </body>
 </html>

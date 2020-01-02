@@ -14,6 +14,11 @@
   $sql = new mysql($user->servername, $user->username, $user->password);
 
   if ($sql->connect_error) {
-    die("Connection failed: ".$conn->connect_error);
+    die("Connection failed: ".$sql->connect_error);
+  }
+
+  function sqlquery($cmd) {
+    global $sql;
+    return $sql->query($cmd);
   }
 ?>
