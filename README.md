@@ -1,7 +1,7 @@
 # phpEditey
 php-based server-side code editer
 
-**WANING: may not be safe! Proceed with caution.**
+**WARNING: may not be safe! Proceed with caution.**
 
 ## Requirements
 `phpEditey` requires a server with php7 and mySQL.
