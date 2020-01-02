@@ -13,6 +13,8 @@
       <input type="text" name="pswd" />
       <input type="submit" />
     </form>
-    <?php ?>
+    <?php
+      include "./assets/open.php";
+    ?>
   </body>
 </html>

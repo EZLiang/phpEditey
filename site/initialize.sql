@@ -5,7 +5,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE files (
-  user VARCHAR(255),
+  uname VARCHAR(255),
   fname VARCHAR(255),
-  contents VARCHAR(65535)
+  contents LONGTEXT
 );

@@ -4,6 +4,7 @@
     <title>saving...|phpEditey</title>
   </head>
   <?php
+    include "./assets/open.php";
     $content = $_POST["contents"];
     $location = $_POST["dir"];
   ?>
