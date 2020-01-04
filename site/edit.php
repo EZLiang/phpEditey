@@ -14,5 +14,7 @@
       <input type="hidden" name="username" />
       <input type="submit" />
     </form>
+    <script>
+    </script>
   </body>
 </html>
